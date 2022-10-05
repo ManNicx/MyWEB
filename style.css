@@ -1,0 +1,188 @@
+*{
+  margin:0; 
+  padding: 0; 
+   box-sizing: border-box;
+   font-family: 'Arvo', serif;
+
+
+
+}
+
+body.hr{
+    
+    width:60vmax;
+}
+.h1{
+    margin-bottom:5em;
+}
+.hr2{
+    margin-top:5em;
+}
+
+.body {
+    background:white;
+}
+/* LOGO */
+.box{
+  
+ 
+   position:relative;
+   text-align:center;
+   color:black;
+   font-weight:bold;
+}
+.box img {
+    width:60vmax;
+ 
+}
+.banner{ 
+  top:200px;
+  
+   font-size:200px;
+   font-family: 'Rubik Marker Hatch', cursive;   
+text-shadow: 1px 2px 8px #FF0000;
+}
+/*         Navigation         */
+
+@keyframes nav{
+   
+  0%{background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+    
+}
+
+.nav{
+    
+    background-color:#FF0000;
+    width: 60vmax;
+    font-size:30px;
+    font-family:sans-serif;
+    font-style:futura; 
+    padding:5px 5px;
+   
+    display:inline-block;
+    animation-name:nav;
+    animation-duration:4s;
+}
+.nav a {
+    
+ 
+    padding-left:5px;
+    color:White;
+    text-decoration:none;
+}
+
+.nav a:hover,{
+    background-color:white;
+    color: black;
+    padding:5px;
+}
+
+.nav a.home{
+    color:black;
+    background-color: white;
+    padding:5px;
+}
+
+#but{
+    padding-left:5px;
+    
+   margin:0px;
+}
+/*     Body   */
+.imgbox img{
+    border-radius:5%;
+    width: auto;
+  height:400px;
+ 
+}
+/*.box2{
+  width:550px;
+   display:flex;
+   flex-direction:row;
+}*/
+
+.imgbox h1,{
+   padding:20px;
+   font-size:30px;
+   margin:0;
+   
+}
+.imgbox p1{
+    margin:0;
+    font-size:30px;
+    
+}
+img {
+    
+    float:left;
+}
+
+#about{
+    font-size:50px;
+}
+
+.imgbox{
+    padding-top:50px;
+}
+
+/*     SKILLS */
+.box3{
+    Font-size:20px;
+    padding-left:10px;
+}
+
+
+
+
+
+
+
+
+/*TOOLS*/
+.box4 h1{
+    font-size:50px;
+    padding-top:30px;
+    
+}
+#cont img{
+    height:200px;
+    width: 140px;
+    margin:0px;
+    padding:0px;
+}
+#cont{
+    border:2px solid;
+    width: 150px;
+}
+#cont il{
+    margin:40px;
+}
+
+/*.skillset{
+    display:flex;
+    flex-direction:column;
+  */  
+}
+.box3 il{
+    font-size:30px;
+    padding-top:50px;
+}
+.skillset{
+    display:flex;
+    
+}
+/* COPYRIGHTS */
+
+
+.copy{
+    
+   background-color: black;
+   color:red;
+   padding:70px 60px 100px 20vmax;
+   width: 60vmax;
+}
+
+
