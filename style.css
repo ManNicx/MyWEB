@@ -3,7 +3,7 @@
   padding: 0; 
    box-sizing: border-box;
    font-family: 'Arvo', serif;
-
+   background-image:url('libra.jpeg');
 
 
 }
@@ -19,9 +19,6 @@ body.hr{
     margin-top:5em;
 }
 
-.body {
-    background:white;
-}
 /* LOGO */
 .box{
   
@@ -57,7 +54,7 @@ text-shadow: 1px 2px 8px #FF0000;
     
     background-color:#FF0000;
     width: 55vmax;
-    font-size:30px;
+    font-size: 25px;
     font-family:sans-serif;
     font-style:futura; 
     padding:5px 5px;
@@ -69,18 +66,18 @@ text-shadow: 1px 2px 8px #FF0000;
 .nav a {
     
  
-    padding-left:5px;
+    padding-left:10px;
     color:White;
     text-decoration:none;
 }
 
-.nav a:hover,{
+.nav a:hover{
     background-color:white;
     color: black;
     padding:5px;
 }
 
-.nav a.home{
+.nav a.current{
     color:black;
     background-color: white;
     padding:5px;
@@ -98,21 +95,20 @@ text-shadow: 1px 2px 8px #FF0000;
   height:400px;
  
 }
-/*.box2{
-  width:550px;
-   display:flex;
-   flex-direction:row;
-}*/
+.box2 h2{
+    padding-top:20px;
+}
 
-.imgbox h1,{
+
+.imgbox h1{
    padding:20px;
-   font-size:30px;
+   font-size:20px;
    margin:0;
    
 }
 .imgbox p1{
     margin:0;
-    font-size:30px;
+    font-size:20px;
     
 }
 img {
@@ -125,7 +121,8 @@ img {
 }
 
 .imgbox{
-    padding-top:50px;
+    padding-top:20px;
+    margin:10px;
 }
 
 /*     SKILLS */
@@ -167,7 +164,7 @@ img {
   */  
 }
 .box3 ul il{
-    font-size:30px;
+    font-size:20px;
     padding-top:50px;
 }
 .skillset{
@@ -186,3 +183,34 @@ img {
 }
 
 
+/*   CONTACT ANOTHER PAGE */
+
+
+
+#forms{
+    display:flex;
+    flex-direction:column;
+    
+   width: 30vmax;
+    font-size:25px;
+}
+#forms input{
+    height: 3vh;
+}
+.messbox{
+   
+   width: 400px;
+   height: 400px;
+   padding-top:40px;
+   padding-left:40px;
+   
+}
+#txtarea{
+    height:10vw;
+}
+#send{
+    height: 15px;
+    width: 70px;
+    font-size:20px;
+    margin-top:10px;
+}
